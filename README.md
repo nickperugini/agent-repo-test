@@ -2,15 +2,15 @@
 
 This Terraform project provisions a simple AWS architecture with:
 
-- ✅ **Lambda Function** that uploads a file to S3
-- ✅ **API Gateway (HTTP API)** that triggers the Lambda
-- ✅ **S3 Bucket** to store uploaded files
+-  **Lambda Function** that uploads a file to S3
+-  **API Gateway (HTTP API)** that triggers the Lambda
+-  **S3 Bucket** to store uploaded files
 
 Each time the API endpoint is invoked, the Lambda uploads a timestamped text file to the S3 bucket.
 
 ---
 
-## 🧱 Architecture Diagram
+##  Architecture Diagram
 
 [Client] --> [API Gateway] --> [Lambda Function] --> [S3 Bucket]
 
